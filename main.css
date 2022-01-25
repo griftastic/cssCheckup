@@ -21,7 +21,7 @@ h1 {
 .old-fashioned {
     clear: right;
     margin-left: 10rem;
-    height: 20rem;
+    height: 40rem;
     width: 20rem;
     border: solid black 3px;
     border-radius: 50px;
@@ -30,11 +30,13 @@ h1 {
 }
 
 .moscow-mule {
-    margin-right: 10rem;
-    margin-top: -20.5rem;
+    margin-right: 20rem;
+    margin-top: -40.5rem;
+    position: relative;
+    left: 10rem;
     clear: left;
     float: right;
-    height: 20rem;
+    height: 40rem;
     width: 20rem;
     border: solid black 3px;
     border-radius: 50px;
@@ -48,4 +50,37 @@ img {
 
 h2 {
     font-size: 1.5rem;
+}
+
+.moscow-para h3 {
+    font-weight: bold;
+    text-transform: underline;
+    font-size: 1.5;
+}
+
+.moscow-para h4 {
+    padding-top: 3rem;
+    font-size: 1.25rem;
+}
+
+.fashioned-para ul {
+    text-align: left;
+}
+
+.fashioned-para h4 {
+    font-size: 1.25rem;
+}
+
+.moscow-para ul {
+    text-align: left;
+}
+
+.old-fashioned:hover {
+    transform: scale(1.05);
+    transition: ease .2s;
+}
+
+.moscow-mule:hover {
+    transform: scale(1.05);
+    transition: ease .2s;
 }
