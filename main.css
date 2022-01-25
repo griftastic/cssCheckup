@@ -19,6 +19,8 @@ h1 {
 }
 
 .old-fashioned {
+    clear: right;
+    margin-left: 10rem;
     height: 20rem;
     width: 20rem;
     border: solid black 3px;
@@ -28,6 +30,10 @@ h1 {
 }
 
 .moscow-mule {
+    margin-right: 10rem;
+    margin-top: -20.5rem;
+    clear: left;
+    float: right;
     height: 20rem;
     width: 20rem;
     border: solid black 3px;
@@ -36,10 +42,10 @@ h1 {
     text-align: center;
 }
 
-.f-image {
-    width: 20em;
+img {
+    width: 20rem;
 }
 
-.m-image {
-    width: 20em;
+h2 {
+    font-size: 1.5rem;
 }
