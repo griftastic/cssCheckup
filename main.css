@@ -21,7 +21,7 @@ h1 {
 .old-fashioned {
     clear: right;
     margin-left: 10rem;
-    height: 40rem;
+    height: 44rem;
     width: 20rem;
     border: solid black 3px;
     border-radius: 50px;
@@ -31,12 +31,12 @@ h1 {
 
 .moscow-mule {
     margin-right: 20rem;
-    margin-top: -40.5rem;
+    margin-top: -44.5rem;
     position: relative;
     left: 10rem;
     clear: left;
     float: right;
-    height: 40rem;
+    height: 39rem;
     width: 20rem;
     border: solid black 3px;
     border-radius: 50px;
@@ -83,4 +83,9 @@ h2 {
 .moscow-mule:hover {
     transform: scale(1.05);
     transition: ease .2s;
+}
+
+p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
